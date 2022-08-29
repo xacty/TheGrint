@@ -42,19 +42,34 @@
 }
 
 /* The circles or bullets and indicators */
+.video-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+    overflow-y: visible;
+} 
 .dots {
-  cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 3px;
-  background-color: #acc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.5s ease;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 100px;
+    color: var(--black-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    transition: var(--transition); ease;
 }
-
+span.dots i {
+  margin-right: 8px;
+  font-size: 20px;
+color: var(--green);
+}
+span.dots:hover i, span.enable i {
+  color: var(--blue);
+}
 .enable, .dots:hover {
-  background-color: #717161;
+  background-color: var(--green);
+  box-shadow: 5px 8px 20px #b5d44f9c;
 }
 
 /* Faint animation */
