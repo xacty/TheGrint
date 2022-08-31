@@ -272,34 +272,34 @@
     </div>
     <div class="right">
       <h1>Golf Stats <b class="green">Module</b></h1>
-        <ul class="icon-list-items">
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Know your Strengths and Weaknesses</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">In-depth look into your golf habits, distances of swings, and past scores</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
-          </li>
-        </ul>
-   </div>
- </div>
+      <ul class="icon-list-items">
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">Know your Strengths and Weaknesses</span>
+        </li>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">In-depth look into your golf habits, distances of swings, and past scores</span>
+        </li>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
+        </li>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 </section>
 
@@ -329,7 +329,7 @@
             </span>
             <span class="icon-list-text">Keep score within your group on multiple phones</span>
           </li>
-                    <li class="icon-list-item">
+          <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
@@ -367,28 +367,28 @@
     </div>
     <div class="right">
       <h1>Golf Community for you to connect with  <b class="green">friends and new groups</b></h1>
-<ul class="icon-list-items">
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
-          </li>
-          <li class="icon-list-item">
-            <span class="icon-list-icon">
-              <i aria-hidden="true" class="fas fa-check-circle"></i>
-            </span>
-            <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
-          </li>
-        </ul>   </div>
- </div>
-</div>
+      <ul class="icon-list-items">
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
+        </li>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
+        </li>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
+        </li>
+      </ul>   </div>
+    </div>
+  </div>
 </section>
 
 <section class="ninth-section">
@@ -397,35 +397,35 @@
     <p>Want to analyze your game back at home or at the office? Our website offers even more in-depth stats and is designed for a larger screen.</p>
     <div><img src="assets/thegrint_desktop2.1.webp" alt=""></div>
     <h1>Ready to have the  <br><b>best golf experience ever?</b></h1>
-          <div class="buttons">
-       <?php include "sections/buttons.html" ?>
-     </div>
-     <a class="register-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN FOR FREE TODAY</a>
-  </div>
+    <div class="buttons">
+     <?php include "sections/buttons.html" ?>
+   </div>
+   <a class="register-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN FOR FREE TODAY</a>
+ </div>
 </section>
 
 <!-- Footer -->
 <footer class="blue-bg">
   <svg  class="footer-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-  <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
-  c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
-  c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
-</svg>
-<div class="blue-overlay"></div>
-<div class="container footer-container white">
- <div class="top">
+    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+  </svg>
+  <div class="blue-overlay"></div>
+  <div class="container footer-container white">
+   <div class="top">
     <div class="footer-logo">
       <img src="assets/white_logo.png" alt="">
     </div>
     <h2>The Best Golf App</h2>
-  <p class="green">Manage your Scores, USGA Handicap, GPS and more</p>
-  <div class="social-media">
-    <a href=""><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-    <a href=""><i aria-hidden="true" class="fab fa-instagram"></i></a>
-    <a href=""><i aria-hidden="true" class="fab fa-twitter"></i></a>
+    <p class="green">Manage your Scores, USGA Handicap, GPS and more</p>
+    <div class="social-media">
+      <a href=""><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+      <a href=""><i aria-hidden="true" class="fab fa-instagram"></i></a>
+      <a href=""><i aria-hidden="true" class="fab fa-twitter"></i></a>
+    </div>
   </div>
- </div>
- <div class="bot">
+  <div class="bot">
    <div class="bot-box">
      <h4>TheGRint</h4>
      <p>Since Ⓒ 2011 | All Rights Are Reserved</p>
