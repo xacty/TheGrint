@@ -36,7 +36,6 @@ header{
 }
 .menu ul{
 	list-style-type: none;
-	margin-right: -10px;
 }
 .menu li{
 	display: inline;
@@ -45,19 +44,21 @@ header{
 .menu a{
 	text-decoration: none;
 	font-weight: 500;
-	color: #fff;
-	padding:10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	border-radius: 100px;
+	color: var(--white-text);
+	padding: 18px 32px;
+	transition: var(--transition);
 }
-.menu a:hover { 
-	background: rgba(247, 202, 24, 0.1);
-	border:#F7CA18;
-	border-radius: 20px;
-	border-style: solid;
-	border-width: 2px;
-	transition: 0.2s;
-
+.menu a:hover {	
+	color: rgb(255 255 255 / 70%);
+}
+.menu a.join-btn {
+	color: var(--blue);
+	background-color: var(--green);
+}
+.menu a.join-btn:hover {
+	color: var(--white-text);
+	background-color: var(--blue);
 }
 .icon{
 	display: none;
