@@ -25,16 +25,13 @@
   <header>
     <div class="head_container container">
       <div class="logo">
-        <img src="assets/white_logo.png">
+        <a href="#"><img src="assets/white_logo.png"></a>
       </div>
       <div class="menu" id="myTopnav">
         <ul>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Request Quote</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="https://sandbox.thegrint.com/passthru">Log in</a></li>
+          <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN FOR FREE</a></li>
         </ul>
       </div>
     </div>
