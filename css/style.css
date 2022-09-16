@@ -693,7 +693,7 @@ footer .footer-shape {
 }
 @media screen and (max-width: 835px) {
 	section {
-		background-attachment: unset;
+		background-attachment: scrol;
 	}
 	.first-shape {
 		-webkit-transform: scale(2.5) translateX(-5%);
