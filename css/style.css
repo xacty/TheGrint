@@ -19,6 +19,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li,a {font-family: var(--text);}
 
 body, html {
 	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	margin: 0;
 }
@@ -326,7 +327,11 @@ img {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+	align-items: center;
 	height: 130px;
+}
+.a-wrapper p {
+	text-align: center;
 }
 .a-img-box {
 	display: -webkit-box;
@@ -785,4 +790,20 @@ footer .footer-shape {
 	.eighth-section {
 		padding: 10em 0;
 	}
+		.awards {
+		flex-direction: column;
+	}
+	.a-wrapper {
+    margin-bottom: 35px;
+}
+}
+@media screen and (max-width: 390px) {
+	h1 {
+		font-size: 3em;
+	}
+	.fourth-section, .fifth-wrapper, .fourth-section, .fifth-wrapper {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+
 }
