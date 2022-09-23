@@ -694,8 +694,8 @@ footer .footer-shape {
 	}
 }
 @media screen and (max-width: 835px) {
-	.main-banner {
-		background-attachment: scroll;
+	section {
+		background-attachment: scroll !important;
 	}
 	.first-shape {
 		-webkit-transform: scale(2.5) translateX(-5%);
