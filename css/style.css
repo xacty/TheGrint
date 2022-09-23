@@ -123,7 +123,9 @@ img {
 	font-weight: 300;
 }
 .main-banner {
-	background-image: url('../assets/main-banner.webp');
+	background: url('../assets/main-banner.webp') center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -692,9 +694,6 @@ footer .footer-shape {
 	}
 }
 @media screen and (max-width: 835px) {
-	section {
-		background-attachment: scrol;
-	}
 	.first-shape {
 		-webkit-transform: scale(2.5) translateX(-5%);
 		-ms-transform: scale(2.5) translateX(-5%);
