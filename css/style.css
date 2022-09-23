@@ -790,12 +790,15 @@ footer .footer-shape {
 	.eighth-section {
 		padding: 10em 0;
 	}
-		.awards {
+	.awards {
 		flex-direction: column;
 	}
 	.a-wrapper {
-    margin-bottom: 35px;
-}
+		margin-bottom: 35px;
+	}
+	.buttons svg {
+		max-height: 40px;
+	}
 }
 @media screen and (max-width: 390px) {
 	h1 {
