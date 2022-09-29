@@ -11,15 +11,6 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/carousel.css">  
   <link rel="stylesheet" href="css/style.css">
-
-  <style>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica Neue"}
-
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -29,32 +20,23 @@
       </div>
       <div class="menu" id="myTopnav">
         <ul>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
+
           <li><a href="https://sandbox.thegrint.com/passthru">Log in</a></li>
-          <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN FOR FREE</a></li>
+          <li><a class="join-btn" href="https://sandbox.thegrint.com/passthru/register">JOIN<span class="m-hidden"> FOR FREE</span></a></li>
         </ul>
       </div>
     </div>
   </header>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Request Quote</a>
-    <a href="#">Contact</a>
-    <p style="color: #1c3664; text-align: center">Hubover &copy; 2017</p>
-  </div>
   <section class="main-banner white">
     <div class="overlay"></div>
-    <svg id="Layer_1" class="shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 114.21"><defs><style>.shaper-svg{fill:#fff;}</style></defs><path class="shaper-svg" d="M0,114.2s586.81,2.32,900.35-72,682.84-34.84,838.45,0,181.19,37.16,181.19,37.16v34.84H0Z"/></svg>
+    <svg id="Layer_1" class="shape first-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 114.21"><defs><style>.shaper-svg{fill:#fff;}</style></defs><path class="shaper-svg" d="M0,114.2s586.81,2.32,900.35-72,682.84-34.84,838.45,0,181.19,37.16,181.19,37.16v34.84H0Z"/></svg>
 
     <div style="display: none;" class="shape shape-bottom">
       <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 114.21"><defs><style>.shaper-svg{fill:#fff;}</style></defs><path class="shaper-svg" d="M0,114.2s586.81,2.32,900.35-72,682.84-34.84,838.45,0,181.19,37.16,181.19,37.16v34.84H0Z"/></svg>
     </div>
     <div class="banner-content container">
-      <h1>The Best <b>Golf App</b></h1>
-      <h2>Manage your Scores, USGA Handicap, GPS and more</h2>
+      <h1><b>The Best Golf App</b></h1>
+      <h2>Golf Scoretracker, Handcaps, Golf GPS, Advanced Stats and more</h2>
       <div class="buttons">
        <?php include "sections/buttons.html" ?>
      </div>
@@ -67,20 +49,34 @@
     <div class="first-wrapper">
       <div class="left"><img src="assets/scoretracker1.webp" alt=""></div>
       <div class="right">
-        <img src="assets/scoretracker2.webp" alt="">
+        <img class="m-hidden" src="assets/scoretracker2.webp" alt="">
         <div class="first-content">
-          <h2><b>Track as you play</b><br>with our advanced score tracker</h2>
-          <p>The advance Score Selector feature will let you track three main additional things which we'll explain in more detail: Far Left or Far Right misses, Tee shot club, and 1st putt distance</p>
-        </div>
+         <h2><b>Track as you play</b><br>with our score tracker tool</h2>
+         <p>The advanced score tracker allows you to add metrics for each hole, giving you an easy solution to add scores and feed info into your personalized statistics feature</p>
+       </div>
+     </div>
+   </div>
+   <div class="awards">
+      <div class="a-wrapper">
+        <div class="a-img-box"><img src="assets/cnn.png" alt=""></div>
+        <p>“App changes golf for amateurs”</p>
+      </div>
+      <div class="a-wrapper">
+        <div class="a-img-box"><img src="assets/golf_digest.png" alt=""></div>
+        <p>“Score, stats and GPS”</p>
+      </div>
+      <div class="a-wrapper">
+        <div class="a-img-box"><img src="assets/golf_magazine.png" alt=""></div>
+        <p>“Top App for Handicaps and scoring”</p>
       </div>
     </div>
-  </div>
+ </div>
 </section>
 
-<section class="second-section blue-bg">
+<section style="display: none;" class="second-section provisional blue-bg">
   <div class="shape shape2" data-negative="false">
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
+    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
       <style>.c{fill:#fff;}</style>
     </defs>
     <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
@@ -93,9 +89,8 @@
       <img src="assets/devices2.webp" alt="">
     </div>
     <div class="right">
-      <h1><b class="green">TheGrint</b> can be used to play golf <b>around the world</b></h1>
-      <p>We offer more than 40.000 mapped golf courses around the world that you can play and navigate through our advanced golf GPS feature.</p>
-      <p>whichever your golf needs are, TheGrint will help you enjoy your golf game around the globe. Use it to keep scores using our advanced score tracker, navigate any course with our Golf GPS or analyze your game with our advanced stats module, we have it all.</p>
+      <h1><b class="green">TheGrint</b> built-in GPS allows you to <b> play golf around the world</b></h1>
+      <p>We offer more than 40k mapped golf courses around the world that you can play and navigate through our advanced golf GPS feature.</p>
       <p class="reviews">4.8 ⭐⭐⭐⭐⭐ (12K+ reviews)</p>
       <div class="buttons">
        <?php include "sections/buttons.html" ?>
@@ -105,7 +100,7 @@
 </div>
 </section>
 
-<section class="third-section">
+<section style="display: none;" class="third-section">
   <div class="container">
     <h1>Some of <b><span class="green">TheGrint</span> Features</b></h1>
     <!-- The circles/dots -->
@@ -163,7 +158,7 @@
     </div>
   </div>
 </section>
-<section class="fourth-section blue-bg">
+<section style="display: none;" class="fourth-section blue-bg">
   <div class="blue-overlay"></div>
   <div class="container">
     <div class="fourth-wrapper white">
@@ -185,6 +180,48 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
+            <span class="icon-list-text">Know the Distance for your tee shots and approach shots</span>
+          </li>
+          <li class="icon-list-item white">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Tee off with confidence, knowing distance to hazards and bunkers</span>
+          </li>
+          <li class="icon-list-item white">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Connect your smartwatch with TheGrint to know your distances</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fourth-section blue-bg">
+  <div class="blue-overlay"></div>
+  <div class="container">
+    <div class="fourth-wrapper white">
+      <div class="left">
+        <img src="assets/4-1.webp" alt="">
+        <img src="assets/4-2.webp" alt="">
+        <img src="assets/4-3.webp" alt="">
+      </div>
+      <div style="padding-left: 0; padding-right: 5%;" class="right">
+        <h1 class="align-left"><b class="green">Golf GPS</b><br>and Rangefinder</h1>
+        <ul class="icon-list-items">
+          <li class="icon-list-item white">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Shot tracking and distance calculation on nearly every course worldwide</span>
+          </li>
+          <li class="icon-list-item white">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
             <span class="icon-list-text">Know the distance of the fairway and get on to the green</span>
           </li>
           <li class="icon-list-item white">
@@ -193,14 +230,21 @@
             </span>
             <span class="icon-list-text">Tee off with confidence, knowing the distance to the green</span>
           </li>
+          <li class="icon-list-item white">
+            <span class="icon-list-icon">
+              <i aria-hidden="true" class="fas fa-check-circle"></i>
+            </span>
+            <span class="icon-list-text">Connect your smartwatch with TheGrint to know your distances</span>
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
 <section class="fifth-section">
   <div class="container">
-    <div class="fifth-wrapper">
+    <div class="fifth-wrapper r-mobile">
 
       <div class="left">
         <h1 class="align-left">Try our <b class="green">Green Maps</b></h1>
@@ -209,26 +253,26 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Dual view topographic slope shown in % with precise green slopes.</span>
+            <span class="icon-list-text">Topographic slope shown in % with precise green slopes.</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Use it to improve your approach game.</span>
+            <span class="icon-list-text">Use it to improve your approach shots and putt reading.</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Over 13k green maps available.</span>
+            <span class="icon-list-text">Over 13k green maps available and adding more every month.</span>
           </li>
         </ul>
-        <p>With Green Maps you will now be able to determine the best location to place your ball on your approach shots, or at least try it. If the Golf Course that you are playing has the greens mapped, you will see a sloped green icon right above the GPS icon on the top right side of your GPS screen.</p>
+        <p>Our precise Green Maps allow you to determine the best location to aim for your approach shots, and help you be more confident with your putt reading. The Green Maps are only available to PRO+ members but you can give it a test run for free.</p>
       </div>
 
       <div class="right">
-        <img src="assets/new/asset2.png" alt="">
+        <img class="m-hidden" src="assets/new/asset2.png" alt="">
         <div class="img-wrapper">
           <img src="assets/new/greenmaps.webp" alt="">
           <img src="assets/5-2.webp" alt="">
@@ -242,7 +286,7 @@
 <section class="sixth-section blue-bg">
   <div class="shape shape2" data-negative="false">
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
+    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
       <style>.c{fill:#fff;}</style>
     </defs>
     <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
@@ -268,31 +312,31 @@
 
     </div>
     <div class="right">
-      <h1>Golf Stats <b class="green">Module</b></h1>
+      <h1><b>Advanced Golf</b> <b class="green">Stats Feature</b></h1>
       <ul class="icon-list-items">
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">Know your Strengths and Weaknesses</span>
+          <span class="icon-list-text">Know your Strengths and Weaknessess with our benchmark dynamic targets by handicap</span>
         </li>
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">In-depth look into your golf habits, distances of swings, and past scores</span>
+          <span class="icon-list-text">Understand your game through our in-depth Performance Stats.</span>
         </li>
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
+          <span class="icon-list-text">Track records and milestones in your own Trophy Room.</span>
         </li>
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
+          <span class="icon-list-text">Save all your rounds in one place.</span>
         </li>
       </ul>
     </div>
@@ -303,16 +347,16 @@
 
 <section class="fifth-section seventh-section">
   <div class="container">
-    <div class="fifth-wrapper seventh-wrapper">
+    <div class="fifth-wrapper seventh-wrapper r-mobile">
 
       <div class="left">
-        <h1 class="align-left">Live <b class="green">Leaderboard</b></h1>
+        <h1 class="align-left"><b>Live Scores &</b><br> <b class="green">Leaderboard Feature</b></h1>
         <ul class="icon-list-items">
           <li class="icon-list-item">
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Get instant Push Notification of what your friends are doing live on the golf course</span>
+            <span class="icon-list-text">Get instant Notification of what your friends are doing live on the golf course</span>
           </li>
           <li class="icon-list-item">
             <span class="icon-list-icon">
@@ -330,13 +374,13 @@
             <span class="icon-list-icon">
               <i aria-hidden="true" class="fas fa-check-circle"></i>
             </span>
-            <span class="icon-list-text">Ryder Cup Format competitions</span>
+            <span class="icon-list-text">Live Ryder Cup Format competitions</span>
           </li>
         </ul>
       </div>
 
       <div class="right">
-        <img src="assets/new/asset3.png" alt="">
+        <img class="m-hidden" src="assets/new/asset3.png" alt="">
         <div class="img-wrapper">
           <img src="assets/leaderboards.webp" alt="">
           <img src="assets/new/section-gaming.webp" alt="">
@@ -350,7 +394,7 @@
 <section class="second-section eighth-section blue-bg">
   <div class="shape shape2 shape-reversed" data-negative="false">
     <?xml version="1.0" encoding="UTF-8"?>
-    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
+    <svg id="Layer_1" class="svg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100"><defs>
       <style>.c{fill:#fff;}</style>
     </defs>
     <polygon style="opacity: .5;" class="c" points="0 50 1920 50 1920 0 0 29.31 0 50"/><polygon style="opacity: .25;" class="c" points="0 50 1920 50 1920 100 0 70.69 0 50"/><polygon class="c" points="1920 0 0 0 0 29.31 1920 0"/>
@@ -360,22 +404,22 @@
 <div class="container">
   <div class="second-wrapper eighth-wrapper white">
     <div class="left">
-      <img src="assets/new/social.webp" alt="">
+      <img src="assets/golf_module.webp" alt="">
     </div>
     <div class="right">
-      <h1>Golf Community for you to connect with  <b class="green">friends and new groups</b></h1>
+      <h1>Connect with your golf friends <b class="green">or meet new ones</b></h1>
       <ul class="icon-list-items">
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">View scores, stats, and photos uploaded by your golf buddies</span>
+          <span class="icon-list-text">Track scores with friends, see their photos and more</span>
         </li>
         <li class="icon-list-item">
           <span class="icon-list-icon">
             <i aria-hidden="true" class="fas fa-check-circle"></i>
           </span>
-          <span class="icon-list-text">Our 4somes tool lets you organize your next tee time with your foursome</span>
+          <span class="icon-list-text">Our Foursomes tool lets you organize your next tee time with your foursome</span>
         </li>
         <li class="icon-list-item">
           <span class="icon-list-icon">
@@ -383,15 +427,22 @@
           </span>
           <span class="icon-list-text">See how you rank among your friends and the rest of TheGrint community</span>
         </li>
-      </ul>   </div>
+        <li class="icon-list-item">
+          <span class="icon-list-icon">
+            <i aria-hidden="true" class="fas fa-check-circle"></i>
+          </span>
+          <span class="icon-list-text">We organize over 200 TheGrint Tour events per year. Go compete and meet new Grinters</span>
+        </li>
+      </ul>
     </div>
   </div>
+</div>
 </section>
 
 <section class="ninth-section">
   <div class="container ninth-container">
-    <h1>Our website is <b style="color:#b5d44f;">awesome too!</b></h1>
-    <p>Want to analyze your game back at home or at the office? Our website offers even more in-depth stats and is designed for a larger screen.</p>
+    <h1>Try our TheGrint <b style="color:#b5d44f;">Web App</b></h1>
+    <p>Want to analyze your golf game back at home or at the office? Our Web App offers all the in-depth stats in a larger screen.</p>
     <div><img src="assets/thegrint_desktop2.1.webp" alt=""></div>
     <h1>Ready to have the  <br><b>best golf experience ever?</b></h1>
     <div class="buttons">
@@ -415,25 +466,25 @@
       <img src="assets/white_logo.png" alt="">
     </div>
     <h2>The Best Golf App</h2>
-    <p class="green">Manage your Scores, USGA Handicap, GPS and more</p>
+    <p class="green">Golf Score Tracker, USGA Handicap, Golf GPS, Advanced Stats and more</p>
     <div class="social-media">
-      <a href=""><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-      <a href=""><i aria-hidden="true" class="fab fa-instagram"></i></a>
-      <a href=""><i aria-hidden="true" class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/thegrintgolf"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/thegrintgolf/"><i aria-hidden="true" class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/TheGrintGolf"><i aria-hidden="true" class="fab fa-twitter"></i></a>
     </div>
   </div>
   <div class="bot">
    <div class="bot-box">
-     <h4>TheGRint</h4>
+     <h4>TheGrint</h4>
      <p>Since Ⓒ 2011 | All Rights Are Reserved</p>
    </div>
    <div class="bot-box">
      <h4>Need Help</h4>
-     <a href="">Member Support | FAQ</a>
+     <a href="https://thegrint.com/about_us/member_support">Member Support | FAQ</a>
    </div>
    <div class="bot-box">
      <h4>Terms & Conditions</h4>
-     <a href="">Terms of use | Privacy Policy</a>
+     <a href="https://thegrint.com/about_us/terms_and_conditions">Terms of use | Privacy Policy</a>
    </div>
  </div>
 </div>
